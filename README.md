@@ -1,5 +1,15 @@
 # assessment
-This assessment supports two enpoint. 
+This assessment supports two endpoint.
+
+### Get Started
+* Install Maven
+* Install JDK 12
+* Make sure Maven and JDK 12 is in environment variable
+* Run `git clone https://github.com/thurairaj92/assessment.git` and then `cd assessment` in terminal
+* Run `mvn install` in terminal
+* Run `mvn spring-boot:run` in terminal
+
+ 
 
 ### GET /feature
 
