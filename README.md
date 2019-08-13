@@ -5,7 +5,7 @@ This assessment supports two enpoint.
 
 This endpoint will retrieve whether user has permission for given feature or not, default will be `false`.
 ```
-GET /feature1?email=user@email.com&amp; featureName=testOne HTTP/1.1
+GET /feature?email=user@email.com&amp; featureName=testOne HTTP/1.1
 Host: localhost:8080
 User-Agent: PostmanRuntime/7.15.2
 Accept: */*

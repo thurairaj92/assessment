@@ -11,6 +11,6 @@ public interface PermissionRepo extends JpaRepository<Permission, Long> {
     Optional<Permission> findByFeatureNameAndEmail(String feature, String user);
 
     default Optional<Permission> findByFeatureNameAndEmail(Permission permission) {
-        return permission == null ? new Optional<>() : findByFeatureNameAndEmail(permission.getFeatureName(), permission.getEmail());
+        return permission == null ? Optional.empty() : findByFeatureNameAndEmail(permission.getFeatureName(), permission.getEmail());
     }
 }
